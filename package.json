@@ -1,0 +1,30 @@
+{
+  "name": "node-ms",
+  "version": "1.0.0",
+  "description": "test app",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "connect": "^3.5.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "debug": "^2.3.2",
+    "grunt": "^1.0.1",
+    "seneca-web": "^2.0.0",
+    "seneca-web-adapter-express": "^1.0.2",
+    "seneca": "^3.2.2",
+    "type-is": "^1.6.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "microservices"
+  ],
+  "author": "sumit bisht",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "test-ms"
+  }
+}
