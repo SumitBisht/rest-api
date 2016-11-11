@@ -4,11 +4,6 @@ var express = require('express'),
 
 var app = express();
 
-//app.configure(function(){
-//	app.use(express.bodyParser());
-//	app.use(express.methodOverride());
-//});
-
 mongoose.connect('mongodb://localhost/restful');
 
 var ProductSchema = mongoose.Schema({
