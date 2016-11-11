@@ -1,8 +1,12 @@
 var express = require('express'),
+    bodyParser = require('body-parser'),
 	restful = require('node-restful'),
 	mongoose = restful.mongoose;
 
 var app = express();
+app.use(bodyParser.urlencoded({'extended':'true'}));
+app.use(bodyParser.json());
+app.use(bodyParser.json({type:'application/vnd.api+json'}));
 
 mongoose.connect('mongodb://localhost/restful');
 
